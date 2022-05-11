@@ -1,2 +1,2 @@
 # food-orders
-My personal project to automate data extraction of my online food orders from various apps.
+Food expenses especially made through online delivery channels had sometimes left a deep hole in my pocket, and hence I wanted to create a process where I could get insights on my past and present order behavior and perhaps learn from myself. This is a passion project born solely out of my own need. Please feel free to let me know if it interest you or you see something that others can benefit or add to the project.
