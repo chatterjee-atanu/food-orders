@@ -1,7 +1,12 @@
-import requests
 
-reqUrl = "https://jnrbsn.github.io/user-agents/user-agents.json"
+def get_user_agents():
+    
+    import requests
 
-response = requests.request("GET", reqUrl)
+    reqUrl = "https://jnrbsn.github.io/user-agents/user-agents.json"
 
-print(response.text)
+    response = requests.request("GET", reqUrl)
+
+    user_agents = response.json()
+
+    return user_agents
